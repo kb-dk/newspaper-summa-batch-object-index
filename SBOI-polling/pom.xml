@@ -11,6 +11,13 @@
     </parent>
 
     <artifactId>SBOI-polling</artifactId>
+    <dependencies>
+        <dependency>
+            <groupId>dk.statsbiblioteket.newspaper</groupId>
+            <artifactId>SBOI-common</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
 
-    
+    </dependencies>
+
 </project>

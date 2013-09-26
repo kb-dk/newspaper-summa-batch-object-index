@@ -12,5 +12,12 @@
 
     <artifactId>SBOI-service</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>dk.statsbiblioteket.newspaper</groupId>
+            <artifactId>SBOI-library</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
     
 </project>

@@ -19,6 +19,7 @@
         <module>SBOI-library</module>
         <module>SBOI-polling</module>
         <module>SBOI-updating</module>
+        <module>SBOI-common</module>
     </modules>
 </project>
 

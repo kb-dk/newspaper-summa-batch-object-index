@@ -10,15 +10,7 @@
         <version>0.1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>SBOI-updating</artifactId>
+    <artifactId>SBOI-common</artifactId>
 
-    <dependencies>
-        <dependency>
-            <groupId>dk.statsbiblioteket.newspaper</groupId>
-            <artifactId>SBOI-updating</artifactId>
-            <version>0.1-SNAPSHOT</version>
-        </dependency>
-
-    </dependencies>
     
 </project>
