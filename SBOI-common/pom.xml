@@ -12,5 +12,12 @@
 
     <artifactId>SBOI-common</artifactId>
 
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>dk.statsbiblioteket.newspaper</groupId>
+            <artifactId>process-monitor-datasource-interfaces</artifactId>
+            <version>0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 </project>
