@@ -40,14 +40,14 @@ public class SBOIService {
     @Path("/{batchID}")
     @Produces(MediaType.APPLICATION_JSON)
     public Batch getNewestBatch(@PathParam("batchID")Long batchID){
-        return null;
+        return lib.getBatch(batchID,null);
     }
 
     @GET
     @Path("/{batchID}/{runNr}")
     @Produces(MediaType.APPLICATION_JSON)
-    public Batch getSpecificBatch(@PathParam("batchID")Long batchID,@PathParam("runNr")int runNr){
-        return null;
+    public Batch getSpecificBatch(@PathParam("batchID")Long batchID,@PathParam("runNr")Integer runNr){
+        return lib.getBatch(batchID,runNr);
     }
 
 
@@ -56,7 +56,7 @@ public class SBOIService {
     @Path("/{batchID}/{runNr}")
     @Consumes(MediaType.APPLICATION_FORM_URLENCODED)
     @Produces(MediaType.APPLICATION_JSON)
-    public void registerEvent(@PathParam("batchID")Long batchID,@PathParam("runNr")int runNr,
+    public void registerEvent(@PathParam("batchID")Long batchID,@PathParam("runNr")Integer runNr,
                               @FormParam("eventID")EventID eventID,
                               @FormParam("agent")String agent,
                               @FormParam("timestamp")Date timestamp,

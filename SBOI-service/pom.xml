@@ -96,6 +96,12 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.sun.jersey</groupId>
+            <artifactId>jersey-client</artifactId>
+            <scope>test</scope>
+        </dependency>
+
+        <dependency>
             <groupId>dk.statsbiblioteket.newspaper</groupId>
             <artifactId>SBOI-library</artifactId>
             <version>0.1-SNAPSHOT</version>

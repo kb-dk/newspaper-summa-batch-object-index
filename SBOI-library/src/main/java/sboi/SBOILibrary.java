@@ -14,9 +14,12 @@ public class SBOILibrary {
         return null;
     }
 
-    public void registerEvent(Long batchID, int runNr, EventID eventID, String agent, Date timestamp, String details, boolean success){
+    public void registerEvent(Long batchID, Integer runNr, EventID eventID, String agent, Date timestamp, String details, boolean success){
 
     }
 
 
+    public Batch getBatch(Long batchID, Integer runNr) {
+        return null;  //To change body of created methods use File | Settings | File Templates.
+    }
 }
